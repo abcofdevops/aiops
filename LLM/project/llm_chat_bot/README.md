@@ -5,6 +5,12 @@
 
 [Application Run Guide](https://github.com/abcofdevops/aiops/blob/main/LLM/project/README.md)
 
+**Running Application**
+  ```bash
+  pip3 install -r requirements.txt
+  python3 dockerfile_generator.py
+  ```
+
 
 ##  How It Works
 
