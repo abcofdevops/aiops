@@ -8,7 +8,7 @@
 **Running Application**
   ```bash
   pip3 install -r requirements.txt
-  python3 dockerfile_generator.py
+  python3 app.py
   ```
 
 
