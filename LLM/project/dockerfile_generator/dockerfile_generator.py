@@ -1,6 +1,6 @@
 import ollama
 
-model_version = “llama3.2:1b”
+model_version = "llama3.2:1b"
 
 PROMPT = """
 ONLY Generate an ideal Dockerfile for {language} with best practices. Do not provide any description
