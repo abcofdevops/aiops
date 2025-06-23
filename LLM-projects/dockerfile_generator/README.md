@@ -5,11 +5,11 @@ A GenAI powered tool that generates optimized Dockerfiles based on programming l
 
 ## Prerequisites
 
- > **Installing Ollama:** ***[Go to Installing Ollama](https://github.com/abcofdevops/aiops/blob/main/LLM/local_hosting_llm/README.md)***
+ > **Installing Ollama:** ***[Go to Installing Ollama](../../README.md)***
 
 ## Setup
 
- > **Setup project:** ***[Go to Setup Guide](https://github.com/abcofdevops/aiops/edit/main/LLM/project/README.md)***
+ > **Setup project:** ***[Go to Setup Guide](../README.md)***
 
 
 ## Run the Application
