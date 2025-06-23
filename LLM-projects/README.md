@@ -4,7 +4,7 @@
 
 ### Installing Ollama
 
-[Go to Installing Ollama](https://github.com/abcofdevops/aiops/blob/main/LLM/local_hosting_llm/README.md)
+[Go to Installing Ollama](../README.md)
 
 ## Project Setup
 
