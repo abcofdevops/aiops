@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
- > **Installing Ollama:** ***[Go to Installing Ollama](../README.md)***
+ > **Installing Ollama:** ***[Go to Installing Ollama](../../README.md)***
 
 ## Setup
 
