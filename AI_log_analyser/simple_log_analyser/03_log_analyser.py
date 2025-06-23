@@ -1,5 +1,4 @@
 import pandas as pd
-from collections import Counter
 
 # Read log file
 log_file_path = "../app.log"  # Update with your file path if needed
@@ -22,7 +21,8 @@ df = pd.DataFrame(data, columns=["timestamp", "level", "message"])
 # Convert timestamp to datetime format for sorting
 df["timestamp"] = pd.to_datetime(df["timestamp"])
 
-error_count = Counter(df[df["level"] == "ERROR"]["timestamp"].dt.floor("30s"))
+# Print error counts for each 30-second interval
+error_count = df[df["level"] == "ERROR"]["timestamp"].dt.floor("30s").value_counts().sort_index()
 
 threshold = 3
 
