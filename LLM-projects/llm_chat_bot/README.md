@@ -3,7 +3,7 @@
 
 ### Steps to Run Application
 
-[Application Run Guide](https://github.com/abcofdevops/aiops/blob/main/LLM/project/README.md)
+[Application Run Guide](../README.md)
 
 **Running Application**
   ```bash
