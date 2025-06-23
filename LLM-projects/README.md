@@ -4,7 +4,7 @@
 
 ### Installing Ollama
 
-[Go to Installing Ollama](../README.md)
+[Go to Installing Ollama](../README.md#run-llm-on-local)
 
 ## Project Setup
 

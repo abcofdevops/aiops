@@ -5,7 +5,7 @@ A GenAI powered tool that generates optimized Dockerfiles based on programming l
 
 ## Prerequisites
 
- > **Installing Ollama:** ***[Go to Installing Ollama](../../README.md)***
+ > **Installing Ollama:** ***[Go to Installing Ollama](../../README.md#run-llm-on-local)***
 
 ## Setup
 
