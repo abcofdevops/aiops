@@ -14,11 +14,11 @@ This repository help to understand how to run LLM models on your system using Do
 
 > If docker desktop is already running above version 4.40+ jump to [Docker Model Runner Usage](##Docker-Model-Runner-Usage)
 
-### Verify Docker Engine Installed and running
+#### Verify Docker Engine Installed and running
 ```bash
 docker --version
 ```
-### Install docker model package
+#### Install docker model package
 ```bash
 sudo apt-get install docker-model-plugin
 ```
@@ -51,18 +51,18 @@ Commands:
 
 
 ## Running a Model
-### **Step 1:** Pull the model 
+#### **Step 1:** Pull the model 
 Pull the model you want to run. For example, to pull the `smollm2` model, you can use the following command:
 ```bash
 docker model pull ai/smollm2
 ```
 
-### **Step 2:** List the models
+#### **Step 2:** List the models
 After pulling the model, you can check the list of available models by running:
 ```bash
 docker model list
 ```
-### **Step 3:** Run the model
+#### **Step 3:** Run the model
 To run a model, you can use the `docker model run` command followed by the model name. For example, to run the `smollm2` model, you can use the following command:
 ```bash
 docker model run ai/smollm2
@@ -83,17 +83,17 @@ docker model run ai/smollm2 “What is DevOps?”
 ## Running a model with UI
 Integrate the model/LLM with the application
 
-### Example Application
+#### Example Application
 Clone the repository
 ```bash
 git clone https://github.com/docker/hello-genai.git
 ```
-### Move to your application repository
+#### Move to your application repository
 ```bash
 cd hello-genai/
 ```
 
-### Add or change model configuration
+#### Add or change model configuration
 ```bash
 vim .env
 ```
@@ -104,11 +104,11 @@ vim .env
 >LLM_MODEL_NAME=ai/smollm2
 >```
 
-### Run the application
+#### Run the application
 ```bash
 ./run.sh
 ```
-### Access the application
+#### Access the application
 ```bash 
 http://localhost:8081/
 ```
