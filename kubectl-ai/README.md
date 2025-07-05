@@ -62,4 +62,5 @@ kubectl-ai
 
 >>> create a deployment with 3 replicas for nginx in nginx namespace
 ```
+<img width="1189" alt="image" src="https://github.com/user-attachments/assets/79e96cb9-55e6-475b-af0e-0db131255127" />
 
