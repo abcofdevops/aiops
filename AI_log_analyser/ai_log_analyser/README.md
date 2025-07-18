@@ -169,10 +169,10 @@ level_mapping = {
 
 ```
 **Detected Anomalies:**
-        timestamp level                    message  level_score  message_length anomaly is_anomaly
-15  2024-01-15 14:23:45  ERROR  Database connection failed after 30 seconds            3              47      -1    Anomaly
-23  2024-01-15 15:45:12  CRITICAL  System memory usage exceeded 95%                   4              33      -1    Anomaly
-31  2024-01-15 16:12:30  WARNING  Unusual spike in API response time: 5000ms          2              51      -1    Anomaly
+        timestamp level                    message                              level_score  message_length anomaly is_anomaly
+15  2024-01-15 14:23:45  ERROR     Database connection failed after 30 seconds        3              47       -1      Anomaly
+23  2024-01-15 15:45:12  CRITICAL  System memory usage exceeded 95%                   4              33       -1      Anomaly
+31  2024-01-15 16:12:30  WARNING   Unusual spike in API response time: 5000ms         2              51       -1      Anomaly
 ```
 
 ## Testing
@@ -217,6 +217,7 @@ EOF
    ```
    **Solution**: Install required packages:
    ```bash
+   pip install -r requirements.txt
    pip install pandas scikit-learn
    ```
 
