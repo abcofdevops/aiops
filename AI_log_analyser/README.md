@@ -9,13 +9,13 @@ AI_log_analyser/
 ├── ai_log_analyser/           # AI-powered log analysis tools
 │   ├── ai_log_analyser.py     # Main AI-based analyzer
 │   ├── requirements.txt       # Python dependencies
-│   └── README.md             # Detailed documentation
+│   └── README.md              # Detailed documentation
 ├── simple_log_analyser/       # Rule-based log analysis scripts
 │   ├── 01_log_analyser.py     # Basic anomaly detection
 │   ├── 02_log_analyser.py     # Enhanced with output options
 │   ├── 03_log_analyser.py     # Simplified version
 │   └── requirements.txt       # Python dependencies
-└── README.md                 # This file
+└── README.md                  # This file
 ```
 
 ## Overview
